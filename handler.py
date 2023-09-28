@@ -5,7 +5,7 @@ from flask import Flask, request, Response
 from propensao.Propensao import Propensao
 
 #carregar modelo
-model = pickle.load (open ('/model/xgbclassifier_final_model.pkl', 'rb') )
+model = pickle.load (open ('model/xgbclassifier_final_model.pkl', 'rb') )
 
 app = Flask (__name__)
 
